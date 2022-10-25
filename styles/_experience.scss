@@ -1,0 +1,58 @@
+.experience {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    @media screen and (max-width: 700px) {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+}
+
+.experience__title {
+    font-size: 16px;
+    font-family: $main-font;
+    font-weight: bold;
+    color: $heading-color;
+}
+
+.experience__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.experience-content {
+    margin: 0 20px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.education__title {
+    font-size: 14px;
+    font-family: $main-font;
+    font-weight: bold;
+    color: $heading-color;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.experience__list {
+    list-style: disc;
+    font-family: $main-font;
+    ul>li {
+        margin-left: 10px;
+        font-size: 13px;
+        font-family: $main-font;
+        color: $body-color;
+        line-height: 1.2;
+    }
+}
+
+.skills>ul {
+    line-height: 1.5;
+    font-family: $main-font;
+    color: $body-color;
+}

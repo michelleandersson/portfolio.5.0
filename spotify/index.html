@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168989429-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168989429-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Spotify Home</title>
+</head>
+<body>
+    <main>
+        <section class="main">
+            <div class="main__left">
+                <div class="main__left-top-nav">
+                    <div>
+                        <a href="#"><i class="fas fa-ellipsis-h dots-icon"></i></a>
+                    </div>
+                    <div class="nav__top">
+                        <a href="#">
+                            <i class="fas fa-home home-icon"></i>
+                            Home
+                        </a>
+                    </div>
+                    <div class="nav__top">
+                        <a href="#">
+                            <i class="far fa-window-maximize browse-icon"></i>
+                            Browse
+                        </a>
+                    </div>
+                    <div class="nav__top">
+                        <a href="#">
+                            <i class="fas fa-broadcast-tower radio-icon"></i>
+                            Radio
+                        </a>
+                    </div>
+                </div>
+                <div class="main__left-middle-nav">
+                    <div>
+                        <a class="nav__title" href="#">
+                            YOUR LIBRARY
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Made For You
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Recently Played
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Liked Songs
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Albums
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Artists
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text--bold" href="#">
+                            Podcasts
+                        </a>
+                    </div>
+                </div>
+                <div class="main__left-bottom-nav">
+                    <div>
+                        <a class="nav__title" href="#">
+                            PLAYLISTS
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Musik för arbetsda...
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Chillin' on a Dirt
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Indie Rock Road Trip
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Acoustic Concentr...
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Discover Weekly
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Favorier
+                        </a>
+                    </div>
+                    <div>
+                        <a class="nav__text" href="#">
+                            Peaceful Piano
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main__middle">
+                <div class="main__middle-nav-top">
+                    <div>
+                        <a href="#" title="Go Back">
+                            <i class="fas fa-chevron-left back-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" title="Go Forward">
+                            <i class="fas fa-chevron-right forward-icon"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <input class="search" type="text" placeholder="Search">
+                    </div>
+                    <div class="main__left-middle-nav-right">
+                        <div>
+                            <a class="profile" href="#" title="Profile">
+                                <i class="far fa-grin-beam profile-pic"></i>
+                                Michelle Andersson
+                            </a>
+                        </div>
+                        <div>
+                            <a class="down-icon" href="#" title="Menu">
+                                <i class="fas fa-chevron-down down-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__middle-nav--sticky">
+                    <div>
+                        <h2 class="sticky__title">Browse</h2>
+                    </div>
+                    <div class="sticky__nav">
+                        <div>
+                            <a class="sticky__text first-sticky" href="#">
+                                GENRES & MOODS
+                            </a>
+                        </div>
+                        <div>
+                            <a class="sticky__text" href="#">
+                                PODCASTS
+                            </a>
+                        </div>
+                        <div>
+                            <a class="sticky__text" href="#">
+                                CHARTS
+                            </a>
+                        </div>
+                        <div>
+                            <a class="sticky__text" href="#">
+                                NEW RELEASES
+                            </a>
+                        </div>
+                        <div>
+                            <a class="sticky__text" href="#">
+                                DISCOVER
+                            </a>
+                        </div>
+                        <div>
+                            <a class="sticky__text" href="#">
+                                CONCERTS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__grid">
+                    <div class="main__grid-genre blue">
+                        <a  href="#">
+                            <i class="fas fa-microphone genre-icon"></i> <br>
+                            Pop
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-pepper-hot genre-icon"></i><br>
+                            Hip-Hop
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-cloud-sun genre-icon"></i><br>
+                            Mood
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-couch genre-icon"></i><br>
+                            Chill
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fas fa-glass-cheers genre-icon"></i><br>
+                            Party
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="far fa-calendar-alt genre-icon"></i><br>
+                            Decades
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-feather-alt genre-icon"></i><br>
+                            Indie
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-dumbbell genre-icon"></i><br>
+                            Workout
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-headphones genre-icon"></i><br>
+                            Electronic/Dance
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fas fa-glasses genre-icon"></i><br>
+                            R&B
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="fas fa-crown genre-icon"></i><br>
+                            Rock
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-atom genre-icon"></i><br>
+                            Tastemakers
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-spa genre-icon"></i><br>
+                            Wellness
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-child genre-icon"></i><br>
+                            Kids & Family
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fas fa-utensils genre-icon"></i><br>
+                            Dinner
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="fas fa-bomb genre-icon"></i><br>
+                            Metal
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="far fa-lightbulb genre-icon"></i><br>
+                            Focus
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-hat-cowboy genre-icon"></i><br>
+                            Country
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-burn genre-icon"></i><br>
+                            Soul
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fas fa-hat-wizard genre-icon"></i><br>
+                            Jazz
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="fas fa-bed genre-icon"></i><br>
+                            Sleep
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-fish genre-icon"></i><br>
+                            K-Pop
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-shoe-prints genre-icon"></i><br>
+                            Dansband
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-heart genre-icon"></i><br>
+                            Romance
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fab fa-fly genre-icon"></i><br>
+                            Folk & Acoustic
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="fas fa-cat genre-icon"></i><br>
+                            Reggae
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-guitar genre-icon"></i><br>
+                            Latin
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-globe-africa genre-icon"></i><br>
+                            Afro
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-music genre-icon"></i><br>
+                            Classical
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="far fa-frown genre-icon"></i><br>
+                            Blues
+                        </a>
+                    </div>
+                    <div class="main__grid-genre blue">
+                        <a href="#">
+                            <i class="fas fa-bolt genre-icon"></i><br>
+                            Punk
+                        </a>
+                    </div>
+                    <div class="main__grid-genre purple">
+                        <a href="#">
+                            <i class="fas fa-dragon genre-icon"></i><br>
+                            Funk
+                        </a>
+                    </div>
+                    <div class="main__grid-genre green">
+                        <a href="#">
+                            <i class="fas fa-car genre-icon"></i><br>
+                            Commute
+                        </a>
+                    </div>
+                    <div class="main__grid-genre orange">
+                        <a href="#">
+                            <i class="fas fa-gamepad genre-icon"></i><br>
+                            Gaming
+                        </a>
+                    </div>
+                    <div class="main__grid-genre red">
+                        <a href="#">
+                            <i class="fas fa-tachometer-alt genre-icon"></i><br>
+                            Trending
+                        </a>
+                    </div>
+                    </div>
+            </div>
+            <div class="main__right">
+                <div>
+                    <h3 class="main__right-title">Friend Activity</h3>
+                </div>
+                <div class="friend">
+                    <i class="far fa-grin-stars friend-icon"></i>
+                    <i class="fas fa-play-circle friend-hover"></i>
+                    <div class="friend__info">
+                        <h4 class="friend__title">Person 1</h4>
+                        <p class="friend__text">The Buzz</p>
+                        <p class="friend__text">Hermitude</p>
+                    </div>
+                </div>
+                <div class="friend">
+                    <i class="far fa-laugh-squint friend-icon"></i>
+                    <i class="fas fa-play-circle friend-hover"></i>
+                    <div class="friend__info">
+                        <h4 class="friend__title">Person 2</h4>
+                        <p class="friend__text">Since I Left You</p>
+                        <p class="friend__text">The Avalanches</p>
+                    </div>
+                </div>
+                <div class="friend">
+                    <i class="far fa-meh friend-icon"></i>
+                    <i class="fas fa-play-circle friend-hover"></i>
+                    <div class="friend__info">
+                        <h4 class="friend__title">Person 3</h4>
+                        <p class="friend__text">Romeo And Juliet</p>
+                        <p class="friend__text">Dire Straits</p>
+                    </div>
+                </div>
+                <div class="friend">
+                    <i class="far fa-grimace friend-icon"></i>
+                    <i class="fas fa-play-circle friend-hover"></i>
+                    <div class="friend__info">
+                        <h4 class="friend__title">Person 4</h4>
+                        <p class="friend__text">Happy Days</p>
+                        <p class="friend__text">Closure in Moscow</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="friend__button" type="button">FIND FRIENDS</button>
+                </div>
+            </div>   
+        
+            <div class="player">
+                <div class="player__left">
+                    <img class="album-img" src="images/love-and-theft.jpg" alt="Love and Theft Album Cover">
+                    <div class="album">
+                        <p class="album-song">Angel Eyes</p>
+                        <p class="album-name">Love and Theft</p>
+                    </div>
+                </div>
+                <div class="player__middle">
+                    <div class="middle__top">
+                        <button class="player-button" type="button" title="Shuffle">
+                            <i class="fas fa-random music-button"></i>
+                        </button>
+                        <button class="player-button" type="button" title="Previous">
+                            <i class="fas fa-step-backward music-button"></i>
+                        </button>
+                        <button class="player-button" type="button" title="Play">
+                            <i class="fas fa-play-circle play-button"></i>
+                        </button>
+                        <button class="player-button" type="button" title="Pause">
+                            <i class="fas fa-pause-circle pause-button"></i>
+                        </button>
+                        <button class="player-button" type="button" title="Next">
+                            <i class="fas fa-step-forward music-button"></i>
+                        </button>
+                        <button class="player-button" type="button" title="Repeat">
+                            <i class="fas fa-retweet music-button"></i>
+                        </button>
+                    </div>
+                <div class="middle__bottom">
+                    <div>
+                        <p class="time">1:05</p>
+                    </div>
+                    <div class="timelapse">
+                        
+                    </div>
+                    <div>
+                        <p class="time">3:06</p>
+                    </div>
+                </div>
+
+                </div>
+                <div class="player__right">
+                    <button class="player-button" type="button" title="Queue">
+                        <i class="fas fa-list list-button"></i>
+                    </button>
+                    <button class="player-button" type="button" title="Devices Available">
+                        <i class="fas fa-laptop device-button"></i>
+                    </button>
+                    <button class="player-button" type="button" title="Mute">
+                        <i class="fas fa-volume-up volume-button"></i>
+                    </button>
+                    <div class="volume">
+                    </div>
+                    <button class="player-button" type="button" title="Full Screen">
+                        <i class="fas fa-expand-alt scale-button"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

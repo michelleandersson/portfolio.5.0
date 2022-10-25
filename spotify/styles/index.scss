@@ -1,0 +1,545 @@
+$main-font: 'Montserrat', sans-serif;
+$side-color: rgb(31, 30, 30); 
+$text-color: rgb(168, 166, 166); 
+$hover-text-color: rgb(255, 255, 255); 
+$player-color: rgb(65, 64, 64);
+$middle-color:rgb(39, 39, 39);
+
+.main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 5fr 1fr;
+}
+
+.main__left {
+    background-color: $side-color;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 14.3%;
+    max-height: 745px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.dots-icon {
+    font-size: 20px;
+    color: $text-color;
+    margin-top: 10px;
+    margin-left: 10px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.nav__top {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.nav__top>a {
+    color: $text-color;
+    font-family: $main-font;
+    text-decoration: none;
+    &:hover {
+        color: $hover-text-color;
+    }
+    &:focus {
+        border-left: 3px solid rgb(6, 190, 6);
+    }
+}
+
+.home-icon {
+    font-size: 20px;
+    color: $text-color;
+    padding-right: 10px;
+    &:hover {
+        color: $hover-text-color;
+    } 
+}
+
+.browse-icon {
+    font-size: 20px;
+    color: $text-color;
+    padding-right: 10px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.radio-icon {
+    font-size: 20px;
+    color: $text-color;
+    padding-right: 10px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.main__left-middle-nav {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.nav__title {
+    color: $text-color;
+    font-family: $main-font;
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.nav__text--bold {
+    color: $text-color;
+    font-family: $main-font;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 2;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.main__left-bottom-nav {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.nav__text {
+    color: $text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 2;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.main__middle {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: $middle-color;
+    max-height: 745px;
+    height: 100%;
+}
+
+.main__middle-nav-top {
+    width: 71.4%;
+    height: 50px;
+    overflow: hidden;
+    background-color: $side-color;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+.back-icon {
+    font-size: 25px;
+    color: $text-color;
+    margin-left: 30px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.forward-icon {
+    font-size: 25px;
+    color: $text-color;
+    margin-left: 20px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.search {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: black;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+.main__left-middle-nav-right {
+    grid-column: 2/3;
+    width: 70%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.profile {
+    color: $text-color;
+    text-decoration: none;
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        color: $hover-text-color;
+        text-decoration: underline;
+    }
+}
+
+.profile-pic {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.down-icon {
+    font-size: 25px;
+    color: $text-color;
+    margin-left: 5px;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.main__middle-nav--sticky {
+    background: linear-gradient(rgb(105, 105, 105), $side-color);
+    opacity: 1;
+    height: 120px;
+    padding-top: 70px;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid $text-color;
+}
+
+.sticky__title {
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.sticky__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.sticky__text {
+    color: $text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        color: $hover-text-color;
+        border-bottom: 2px solid rgb(6, 190, 6);
+    }
+    &:focus {
+        color: $hover-text-color;
+        border-bottom: 2px solid rgb(6, 190, 6);
+    }
+}
+
+.first-sticky {
+    margin-left: 0px;
+}
+
+.main__grid {
+    max-height: 463px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 15px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.main__grid-genre {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &>a {
+        color: $hover-text-color;
+        font-size: 20px;
+        font-family: $main-font;
+        text-decoration: none;
+        text-align: center;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.genre-icon {
+    color: $hover-text-color;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blue {
+    background: linear-gradient(rgb(0, 110, 255), rgb(3, 57, 102));
+}
+
+.green {
+    background: linear-gradient(rgb(32, 196, 32), rgb(1, 85, 1));
+}
+
+.purple {
+    background: linear-gradient(rgb(243, 68, 243), rgb(85, 0, 85));
+}
+
+.orange {
+    background: linear-gradient(rgb(243, 188, 85), rgb(223, 146, 4));
+}
+
+.red {
+    background: linear-gradient(rgb(243, 66, 66), rgb(131, 2, 2));
+}
+
+.main__right {
+    background-color: $side-color;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 14.3%;
+    max-height: 745px;
+    height: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.main__right-title {
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid $text-color;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.friend {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.friend__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 15px;
+
+}
+
+.friend__title {
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    &:hover {
+        text-decoration: underline;
+        color: $hover-text-color;
+        cursor: pointer;
+    }
+}
+
+.friend-icon {
+    color: $hover-text-color;
+    font-size: 40px;
+}
+
+.friend__text {
+    color: $text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    line-height: 1.5;
+    &:hover {
+        text-decoration: underline;
+        color: $hover-text-color;
+        cursor: pointer;
+    }
+}
+
+.friend__button {
+    background-color: $side-color;
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid $hover-text-color;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.player {
+    background-color: $player-color;
+    width: 100%;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;  
+    position: absolute;
+    bottom: 0;
+}
+
+.player__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.album-img {
+    max-width: 80px;
+    width: 100%;
+    margin-top:10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.album {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.album-song {
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.album-name {
+    color: $text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.middle__top {
+    display: flex;
+    justify-content: center;
+}
+
+.player-button {
+    background: $player-color;
+    color: $text-color;
+    font-size: 20px;
+    border: none;
+    outline: $player-color;
+    padding: 12px 16px;
+    cursor: pointer;
+    &:hover {
+        color: $hover-text-color;
+    }
+}
+
+.play-button { 
+    font-size: 40px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.pause-button { 
+    font-size: 40px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.middle__bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.time {
+    color: $hover-text-color;
+    font-family: $main-font;
+    font-size: 12px;
+}
+
+.timelapse { 
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    background-color: $text-color;
+    color: $text-color;
+    height: 4px;
+    width: 87%;
+    border-bottom: none;
+    &:hover {
+        background-color: rgb(6, 190, 6);
+    }
+}
+
+.player__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.volume {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: $text-color;
+    color: $text-color;
+    height: 4px;
+    width: 20%;
+    border-bottom: none;
+    &:hover {
+        background-color: rgb(6, 190, 6);
+    }
+}

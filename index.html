@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168989429-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-168989429-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A portfolio showing a collection of my work, education, and experiences.">
+    <link rel="stylesheet" href="styles/reset.css">
+    <script src="https://kit.fontawesome.com/ad7474103a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <title>Michelle Andersson's Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="sidebar">
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Michelle Andersson">
+                </div>
+                <h2 class="sidebar__name">Michelle Andersson</h2>
+                <h3 class="sidebar__title">Front End Developer</h3>
+            </div>
+            <ul>
+                <li class="nav__link"><a href="#top"><i class="fa fa-globe nav-icon"></i>Welcome</a></li>
+                <li class="nav__link"><a href="#about"><i class="fa fa-user nav-icon"></i>About Me</a></li>
+                <li class="nav__link"><a href="#experience"><i class="fas fa-clipboard-check nav-icon"></i>My
+                        Experience</a></li>
+                <li class="nav__link"><a href="#projects"><i class="fas fa-laptop nav-icon"></i>My Work</a></li>
+                <li class="nav__link"><a href="#testimonials"><i class="fas fa-handshake nav-icon"></i>Testimonials</a>
+                </li>
+                <li class="nav__link"><a href="#contact"><i class="fa fa-envelope nav-icon"></i>Contact Me</a></li>
+            </ul>
+            <div class="social-icons">
+                <ul>
+                    <li><a class="social__links" href="https://www.linkedin.com/in/michelle-andersson-58b553b0/"
+                            target="_blank" title="Check out my LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a class="social__links" href="https://github.com/michelleandersson" target="_blank"
+                            title="Check out my GitHub"><i class="fab fa-github"></i></a></li>
+                    <li><a class="social__links" href="https://twitter.com/Mandersson20" target="_blank"
+                            title="Check out my Twitter"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <!--social-icons -->
+        </div>
+        <!--sidebar-->
+    </nav>
+    <main class="main">
+        <section>
+            <!--top-section-->
+            <div id="top" class="top">
+                <div class="top__overlay"></div>
+                <div class="top__text">
+                    <h2>Hey! I'm a front end developer!</h2>
+                    <h5>Welcome to my portfolio! Have a look around and send me a message through the contact form if
+                        you have any questions.
+                        I'm looking forward to hearing from you! Enjoy your time on my portfolio!</h5>
+                </div>
+            </div>
+            <!--top-->
+        </section>
+        <!--top-section-->
+
+        <section>
+            <!--about-section-->
+            <div id="about" class="about">
+                <h2 class="about__title">ABOUT ME</h2>
+                <p class="about__text">
+                    Hi! My name is Michelle Andersson. I'm an American-Swede with a passion for creating beautiful and
+                    well-functioning websites.
+                    I'm a nature enthusiast with a love for photography and cats. I'm always on the lookout for the next
+                    adventure and will jump
+                    at any opportunity to grow and learn something new. My passion for web development started as a
+                    curiosity for how websites work,
+                    which lead to a couple of months spending every free minute I had learning HTML and CSS through Khan
+                    Academy.
+                    To my great pleasure I was accepted into Pink Programming's intensive course for front end
+                    development. I now spend
+                    every day working on improving my programming skills and diving deep into the fascinating world of
+                    web programming and design.
+                </p>
+                <hr class="about__line">
+            </div>
+            <!--about-->
+        </section>
+        <!--about-section-->
+
+        <section>
+            <!--experience-section-->
+            <div id="experience" class="experience">
+                <h2 class="experience__title">EDUCATION AND WORK EXPERIENCE</h2>
+                <div class="experience__container">
+                    <div class="education experience-content">
+                        <h5 class="education__title">Education</h5>
+                        <ul>
+                            <li class="experience__list">
+                                Pink Programming
+                                <ul>
+                                    <li class="experience__date">2020</li>
+                                    <li class="experience__type">Front End Development</li>
+                                </ul>
+                            </li> <br>
+                            <!--Pink Programming-->
+                            <li class="experience__list">
+                                Halmstad University
+                                <ul>
+                                    <li class="experience__date">2019</li>
+                                    <li class="experience__type">Environmental Studies and Sustainable Development</li>
+                                </ul>
+                            </li> <br>
+                            <!--Halmstad University-->
+                            <li class="experience__list">
+                                Gothenburg University
+                                <ul>
+                                    <li class="experience__date">2017</li>
+                                    <li class="experience__type">Introduction to Marine Biology</li>
+                                </ul>
+                            </li> <br>
+                            <!--Gothenburg University-->
+                            <li class="experience__list">
+                                Malmö University
+                                <ul>
+                                    <li class="experience__date">2014-2017</li>
+                                    <li class="experience__type">Bachelors in International Human Rights</li>
+                                </ul>
+                            </li> <br>
+                            <!--Malmö University-->
+                        </ul>
+                    </div>
+                    <!--education-->
+                    <div class="work experience-content">
+                        <h5 class="education__title">Work</h5>
+                        <ul>
+                            <li class="experience__list">
+                                Ikano Bank, Malmö, Sweden
+                                <ul>
+                                    <li class="experience__date">September 2019-February 2020</li>
+                                    <li class="experience__type">Credit Management and Customer Service</li>
+                                </ul>
+                            </li> <br>
+                            <!--Ikano Bank-->
+                            <li class="experience__list">
+                                PwC Delivery Center, Lund, Sweden
+                                <ul>
+                                    <li class="experience__date">December 2017-August 2019</li>
+                                    <li class="experience__type">Statistical and Quality Specialist</li>
+                                </ul>
+                            </li> <br>
+                            <!--PwC-->
+                            <li class="experience__list">
+                                StormGroup, Malmö, Sweden
+                                <ul>
+                                    <li class="experience__date">July 2017-September 2017</li>
+                                    <li class="experience__type">Sales Consultant</li>
+                                </ul>
+                            </li>
+                            <!--StormGroup-->
+                        </ul>
+                    </div>
+                    <!--work-->
+                    <div class="skills experience-content">
+                        <h5 class="education__title">Skills</h5>
+                        <ul>
+                            <li class="experience__list">Multimedia </li>
+                            <li class="experience__list"> Computer programs: Microsoft Word, Excel, Adobe Photoshop</li>
+                            <li class="experience__list"> Fluent in English and Swedish </li>
+                            <li class="experience__list"> Leadership and Education </li>
+                            <li class="experience__list"> HTML, CSS, Sass, JavaScript, Bootstrap, Vue.js, React.js and
+                                Git/ GitHub </li>
+                            <li class="experience__list"> Wix and WordPress </li>
+                            <li class="experience__list"> Script-Writing, Translation, making instruction videos/
+                                manuals </li>
+                        </ul>
+                    </div>
+                    <!--skills-->
+                </div>
+                <!--experience__container-->
+                <hr class="about__line">
+            </div>
+            <!--experience-->
+        </section>
+        <!--experience-section-->
+
+        <section>
+            <!--projects-section-->
+            <div id="projects" class="projects">
+                <h2 class="projects__title">EXAMPLES OF MY WORK</h2>
+                <p class="projects__text">
+                    Below you can see a few samples of the work I have done together with a short description of the
+                    project,
+                    it's requirements and a view of the project. To see the live website, just press the image! If you
+                    are interested in examinging
+                    the code for the project, feel free to check out my GitHub.
+                </p>
+                <div class="projects__container">
+                    <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Karmel.se</h5>
+                            <p class="projects__item-text">
+                                This project was a client project for the nuns at Karmel in Rydebäck <br><br>
+                                Note: Full redesign of their website and update the content. <br><br>
+                                <em>Built on: Wordpress, CSS, JavaScript, PHP</em>
+                            </p>
+                            <button class="show-btn" id="spotify-btn">Show more</button>
+                            <p class="spotify-show-text">
+                                I was contacted by the Karmel nuns in Rydebäck and asked to recreate their website.
+                                Their site had not been updated in over 10 years and it was in need of a new design,
+                                fresh images, new text, and restructuring the site for better UX. Since the client
+                                had no specific design in mind, we spent some time discussing what
+                                it was they wanted. I created multiple design options for them and once we arrived at a
+                                design they liked, I recreated their whole website with the new design. I also updated
+                                their images and text as well as reorganize the website structure. The website is built
+                                in Wordpress, however I ended up altering the CSS, JavaScript, and PHP in order to fit
+                                the client's needs. Throughout the process I would send updates to the client to ensure
+                                I was on track with how they wanted the website to look and function. All in all the
+                                whole project took about one month of working on it in the evenings and weekends. In the
+                                end the client was very happy with the new website, and ultimately that is what is most
+                                important.
+                            </p>
+                        </div>
+                        <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="https://karmel.se/" target="_blank"
+                                    title="Click to see Live website!">
+                                    Click to see Live website!
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/karmel_screenshot.PNG"
+                                alt="Screenshot of Karmel Landingpage">
+                        </div>
+                    </div>
+                    <!--projects__item-spotify-->
+                    <!-- <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Banger Music</h5>
+                            <p class="projects__item-text">
+                                This project focused on creating a song search webpage using an API. <br><br>
+                                Note: Fully responsive design. Designed by me. UX tested. <br><br>
+                                <em>Built on: HTML, CSS, Sass, Bootstrap, JavaScript, Vue.js, MusixMatch API</em>
+                            </p>
+                            <button class="show-btn" id="banger-btn">Show more</button>
+                            <p class="banger-show-text">
+                                The page uses MusixMatch API to fetch song information.
+                                The page displays the top ten tracks in the US and provides the user with the option to
+                                find information for specific
+                                songs by searching for them. The results show general information with the ability to
+                                show the lyrics for the specific
+                                song as well. This page was so much fun because I got to design the whole thing myself
+                                from scratch. I designed my own
+                                logo, did UX testing, researched the targeted demographic, and made the page responsive.
+                                This project was definitely a
+                                challenge with the API, but once I got the page to work how I wanted it to, the rest of
+                                the page came together quite
+                                quickly.
+                            </p>
+                        </div> -->
+                    <!-- <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="banger-music-2/index.html" target="_blank" 
+                                title="Click to see Live website!">
+                                Click to see Live website!  
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/banger.PNG" alt="Screenshot of Banger Music Project">
+                        </div> -->
+                    <!-- </div> -->
+                    <!--projects__Banger-->
+                    <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Monticello</h5>
+                            <p class="projects__item-text">
+                                This project was to recreate a website that showed functionality within a timelimit.
+                                <br> <br>
+                                Note: Desktop only. Suggested screen size: 1600px or larger. <br> <br>
+                                <em>Built on: HTML, CSS, Sass, Figma, JavaScript, SlickSlider, Google Maps API</em>
+                            </p>
+                            <button class="show-btn" id="monticello-btn">Show more</button>
+                            <p class="monticello-show-text">
+                                The page was created from scratch based on a design in Figma. The project had a deadline
+                                that I was not only able
+                                to meet, but to finish before the deadline which gave me time to look over the details
+                                of the project and work out
+                                whatever issues there were before handing in the final project. I am very happy with how
+                                this page turned out. I feel
+                                the page looks good and functions well. I learned a lot about SlickSliders and how to
+                                use and style Google Maps API.
+                                Note that this project is currently only developed for desktop. It is designed for a
+                                screen of 1600px or larger. For
+                                best result you may want to zoom out your screen until you get the whole width of the
+                                page.
+                            </p>
+                        </div>
+                        <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="monticello/index.html" target="_blank"
+                                    title="Click to see Live website!">
+                                    Click to see Live website!
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/monticello.PNG"
+                                alt="Screenshot of Monticello Project">
+                        </div>
+                    </div>
+                    <!--projects__item-Monticello-->
+                    <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Bhromaon Travel</h5>
+                            <p class="projects__item-text">
+                                This project focused on making a functioning website that incorporated the basics of
+                                website development within a narrow timeline.<br><br>
+                                Note: Fully responsive design. <br><br>
+                                <em>Built on: HTML, CSS, Sass, Figma</em>
+                            </p>
+                            <button class="show-btn" id="bhromaon-btn">Show more</button>
+                            <p class="bhromaon-show-text">
+                                The
+                                website was created from scratch based on a design in Figma. It was to be fully
+                                responsive, have several images
+                                and sections with content, and be completed within a narrow timelimit. This was one of
+                                the more complex designs I
+                                have (at the time) created and am happy with how the result turned out. This project
+                                pushed me to think quickly and
+                                creatively on how to solve the problem at hand: how do I create this large landing page
+                                as complete as possible within
+                                my timelimit? This was a good challange in finding a balance between getting the page to
+                                look good and having the
+                                page be complete with all sections, information, and functionality.
+                            </p>
+                        </div>
+                        <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="bhromaon/index.html" target="_blank"
+                                    title="Click to see Live website!">
+                                    Click to see Live website!
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/bhromaon.JPG"
+                                alt="Screenshot of Bhromaon Project">
+                        </div>
+                    </div>
+                    <!--projects__item-bhromaon-->
+
+                    <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Genesis Portfolio</h5>
+                            <p class="projects__item-text">
+                                This project focused on creating a layout for a portfolio of photographs and using
+                                Google Maps. <br> <br>
+                                Note: fully responsive design. Three-page website. <br><br>
+                                <em>Built on: HTML, CSS, Figma, Google Maps API</em>
+                            </p>
+                            <button class="show-btn" id="genesis-btn">Show more</button>
+                            <p class="genesis-show-text">
+                                The project was
+                                created from scratch based on a design in Figma. The project also links between three
+                                separate pages on the website.
+                                This project was good practice for making separate pages of a site look cohesive and how
+                                to use flexbox and grids in
+                                the most optimal ways in order for the site to look good on all screen sizes.
+                            </p>
+                        </div>
+                        <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="genesis/index.html" target="_blank"
+                                    title="Click to see Live website!">
+                                    Click to see Live website!
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/genesis.JPG"
+                                alt="Screenshot of Genesis Portfolio Project">
+                        </div>
+                    </div>
+                    <!--projects__Genesis-->
+                    <div class="projects__item overflow">
+                        <div class="projects__items-info">
+                            <h5 class="projects__item-title">Fluffy Agency</h5>
+                            <p class="projects__item-text">
+                                This project focused on creating a site that looked professional and realistic. <br>
+                                <br>
+
+                                Note: Fully responsive design. <br><br>
+                                <em>Built on: HTML, CSS</em>
+                            </p>
+                            <button class="show-btn" id="fluffy-btn">Show more</button>
+                            <p class="fluffy-show-text">
+                                The design was based based on a layout from Figma. The site was to include
+                                features such as a form, buttons, links, and be responsive. Since this site was to look
+                                realistic, it was good practice
+                                for design and layout. It incorporated several different types of elements which had to
+                                work together to look good on
+                                all screen sizes which was a fun challenge.
+                            </p>
+                        </div>
+                        <div class="hover__container">
+                            <div class="hover__text">
+                                <a class="projects__item-link" href="fluffy/index.html" target="_blank"
+                                    title="Click to see Live website!">
+                                    Click to see Live website!
+                                </a>
+                            </div>
+                            <img class="projects__item-img" src="images/fluffy.JPG"
+                                alt="Screenshot of Fluffy Agency Project">
+                        </div>
+                    </div>
+                    <!--projects__Fluffy-->
+
+                </div>
+                <!--projects__container-->
+                <hr class="about__line">
+            </div>
+            <!--projects-->
+        </section>
+        <!--projects-section-->
+
+        <section>
+            <div id="testimonials" class="testimonials">
+                <div class="testimonial-container">
+                    <h2 class="testimonials__title">TESTIMONIALS</h2>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-content">
+                            <div class="testimonial-review">
+                                <h3>"Very pleased with the quality and professionalism" </h3>
+                                <p>"Michelle is very professional! She approached my project with confidence and poise.
+                                    I was very impressed with how fast she was able to accomplish my needs.
+                                    She was able to update my current website, which is hosted on Wix.com.
+                                    Previously, she was not familiar with this particular format, but she picked it up
+                                    with ease. The elements she changed were:</p>
+                                <ul>
+                                    <li>Added a favicon based on logo</li>
+                                    <li>Changed the color of the title 'our services' in testimony</li>
+                                    <li>Added hover effect over all social media icons</li>
+                                    <li>Added 'book now' button to each page and have it lead directly to the booking
+                                        page</li>
+                                    <li>Added padding to the title in 'services' and the content of 'testimony' so it
+                                        does
+                                        not go all the way to the edge of the mobile screen.</li>
+                                </ul>
+                                <p>All in all, I was very pleased with the quality of her work and the professionalism
+                                    she portrayed."</p>
+                            </div>
+                            <div class="testimonial-contributor">
+                                <p>-Julie Vonesh, <span>Alpine Design</span></p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-review">
+                                <h3>"Professional, creative, and always good communication" </h3>
+                                <p>"Michelle was part of a project where we built a platform from scratch.
+                                    The platform was about teaching newly arrived people about digital transformation.
+                                    We created videos about different subjects and Michelle was the one who wrote the
+                                    script,
+                                    did the translation and added the subtitles. We are very happy to cooperate with
+                                    Michelle and we really hope we will do more projects with her. Very professional,
+                                    creative and always good communication."
+                                </p>
+                            </div>
+                            <div class="testimonial-contributor">
+                                <p>-Taher Anosheh, <span>Ecirkeln</span></p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-review">
+                                <h3>"When we met Michelle we found just the person we had looked for" </h3>
+                                <p>"We had for several years searched for a person who could help us to renew our
+                                    website.
+                                    When we met Michelle Andersson we found just that person we had looked for. <br>
+                                    She was very attentive and respectful towards our special
+                                    way of life in the monastery - full of energy and enthusiasm and eager to do a good
+                                    job.
+                                    She was very open to our ideas and she showed much patience so that it matched what
+                                    we were searching for. She worked very fast and at the same time very thoroughly.
+                                    She made
+                                    a very beatiful website for us and we are happy and grateful and recommend her to
+                                    others."
+                                </p>
+                            </div>
+                            <div class="testimonial-contributor">
+                                <p>-The Carmelite nuns in Sweden <span></span></p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-review">
+                                <h3>"She has the gift to share knowledge with students" </h3>
+                                <p>"Michelle was my teacher during my studies with Sundsgården Folkhögskola,
+                                    IT-programing.
+                                    Michelle possesses great knowledge within her field, also she has the gift to share
+                                    this
+                                    knowledge with her students and support them in their intensive program. I found the
+                                    IT-programing course material to be of high quality and relevant for what is
+                                    requested of an
+                                    aspiring developer. <br>
+                                    Michelle is a great inspiration to me and has always been there to answer questions
+                                    and to
+                                    keep me in the right direction to further develop in this field."
+                                </p>
+                            </div>
+                            <div class="testimonial-contributor">
+                                <p>-Helena Plantin, <span>Student at Sundsgården Folkhögskola</span></p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="testimonial-review">
+                                <h3>"Thank you for creating this excellent course" </h3>
+                                <p>"Thank you for creating this excellent course. Of all the courses I have been
+                                    enrolled in during the years,
+                                    yours is by far the most educational. It is up to date and highly work-related. I
+                                    will recommend it to
+                                    anyone who is considering a career as a developer."
+                                </p>
+                            </div>
+                            <div class="testimonial-contributor">
+                                <p>-Patrick Svensson, <span>Student at Sundsgården Folkhögskola</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="about__line">
+            </div>
+            <!--testimonials-->
+        </section>
+        <!--testimonials- section-->
+
+        <section>
+            <!--contact-section-->
+            <div id="contact" class="contact">
+                <h2 class="contact__title">CONTACT ME</h2>
+                <p class="contact__text">
+                    I'm excited to hear from you! Please take a moment to contact me through the contact form below.
+                </p>
+                <form action="form.php" method="POST" class="contact-form">
+                    <div class="form__input-container">
+                        <input type="text" id="your-name" name="name" placeholder="Your Name..." required>
+                        <input type="email" id="email" name="email" placeholder="Your Email..." required>
+                        <input type="text" id="your-subject" name="subject" placeholder="Subject...">
+                    </div>
+                    <textarea name="message" id="message" cols="30" rows="6" placeholder="Leave your message..."
+                        required></textarea>
+                    <input type="submit" class="button" name="submit" value="SEND MESSAGE">
+                </form>
+                <hr class="about__line">
+            </div>
+            <!--contact-->
+        </section>
+        <!--contact-section-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Created by Michelle Andersson 2020</p>
+            </div>
+            <div class="footer-media">
+                <ul>
+                    <li><a class="social__links" href="https://www.linkedin.com/in/michelle-andersson-58b553b0/"
+                            target="_blank" title="Check out my LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a class="social__links" href="https://github.com/michelleandersson" target="_blank"
+                            title="Check out my GitHub"><i class="fab fa-github"></i></a></li>
+                    <li><a class="social__links" href="https://twitter.com/Mandersson20" target="_blank"
+                            title="Check out my Twitter"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/script.min.js"></script>
+    <script src="script/slick.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+</body>
+
+</html>
